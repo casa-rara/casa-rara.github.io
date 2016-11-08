@@ -1,0 +1,41 @@
+html {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.logo {
+    height: auto;
+    min-width: 320px;
+    max-width: 40%;
+}
+
+@media (max-width: 780px) {
+    .logo {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 580px) {
+    html {
+        font-size: 1.5rem;
+    }
+}
