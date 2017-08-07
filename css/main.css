@@ -8,6 +8,12 @@ body {
   padding: 0;
 }
 
+@media (max-width: 750px) { 
+  body {
+    overflow-x: hidden;
+  }
+}
+
 h1, 
 h2, 
 h3, 
@@ -55,19 +61,23 @@ a:hover {
 /* Navigation */
 
 .fixed {
+  background-color: #242935;
+  color: #F7F5F6;
+  padding: 16px;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
 nav {
-  background-color: #242935;
-  color: #F7F5F6;
   display: flex;
+  justify-content: flex-end;
 }
 
 .navigation {
   flex: 1;
+  color: #F7F5F6;
+  position: fixed;
 }
 
 .navigation a {
@@ -103,11 +113,48 @@ nav {
   color: #f09fb3;
 }
 
-/*@media (max-width: 750px) { 
+.mobile {
+  display: none;
+}
+
+@media (max-width: 750px) { 
+  .navigation {
+    background-color: #242935;
+    bottom: 0;
+    -webkit-box-shadow: 3px 0px 5px 0px rgba(36,41,53,1);
+    -moz-box-shadow: 3px 0px 5px 0px rgba(36,41,53,1);
+    box-shadow: 3px 0px 5px 0px rgba(36,41,53,1);
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 48px;
+    transition: 0.5s;
+    width: 0;
+  }
+
+  .navigation.active {
+    display: block;
+    width: 50%;
+  }
+
   .navigation ul {
     flex-direction: column;
+    padding-left: 18px;
   }
-}*/
+
+  .navigation .nav-links {
+    margin-bottom: 18px;
+  }
+
+  .mobile {
+    color: #F7F5F6;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2rem;
+    position: absolute;
+    top: 9px;
+  }
+}
 
 /* Banner */
 .banner {
