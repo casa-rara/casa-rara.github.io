@@ -99,7 +99,7 @@ nav {
 
 .lang-nav {
   align-self: center;
-  margin-right: 24px;
+  margin-right: 48px;
 }
 
 .nav-links {
@@ -113,7 +113,7 @@ nav {
   color: #f09fb3;
 }
 
-.mobile {
+.fa.mobile {
   display: none;
 }
 
@@ -142,11 +142,12 @@ nav {
     padding-left: 18px;
   }
 
-  .navigation .nav-links {
-    margin-bottom: 18px;
+  .navigation .nav-links a {
+    display: inline-block;
+    padding: 9px 24px 9px 0;
   }
 
-  .mobile {
+  .fa.mobile {
     color: #F7F5F6;
     cursor: pointer;
     display: inline-block;
