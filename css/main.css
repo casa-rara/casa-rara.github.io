@@ -164,6 +164,7 @@ nav {
   background-size: 50%;
   height: 100vh;
   margin-top: 52px;
+  padding-bottom: 24px;
   width: 100%;
 }
 
@@ -293,18 +294,26 @@ nav {
   min-width: 350px;
 }
 
-@media (max-width: 750px) { 
-  .team {
-    min-width: 300px;
-  }
-}
-
 .team:first-child {
   padding-left: 12px;
 }
 
 .team:last-child {
   padding-right: 12px;
+}
+
+@media (max-width: 750px) { 
+  .team {
+    min-width: 300px;
+  }
+
+  .team:first-child {
+    padding-left: 0;
+  }
+
+  .team:last-child {
+    padding-right: 0;
+  }
 }
 
 .team img {
