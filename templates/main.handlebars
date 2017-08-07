@@ -1,0 +1,118 @@
+<section class="section">
+  <div class="banner">
+    <div class="banner-container">
+      <a href="/">
+        <img class="logo" src="https://casa-rara.github.io/img/banner/logo.png" alt="Casa Rara Logo"></img>
+      </a>
+      <h1 class="quote">{{data.header.quote}}</h1>
+      <p class="one-liner">{{data.header.oneLiner}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <a id="about" name="about"></a>
+  <h2 class="section-title">{{data.about.title}}</h2>
+  <div class="section-content">
+    {{#each data.about.content}}
+    <div class="content about">
+      <h3>{{title}}</h3>
+      <p>{{description}}</p>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section">
+  <a id="projects" name="projects"></a>
+  <h2 class="section-title">{{data.projects.title}}</h2>
+  <div class="section-content">
+    {{#each data.projects.content}}
+    <div class="content projects">
+      <h3>{{title}}</h3>
+      <img src="{{image}}"></img>
+      <p>{{description}}</p>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section">
+  <a id="team" name="team"></a>
+  <h2 class="section-title">{{data.team.title}}</h2>
+  <div class="section-content">
+    {{#each data.team.content}}
+    <div class="content team">
+      <a href="{{linkedIn}}" target="_blank">
+        <img src="{{image}}"></img>
+      </a>
+      <div>
+        <a href="{{linkedIn}}" target="_blank">
+          <h3 class="team-name">{{name}}</h3>
+        </a>
+        <p class="team-role">{{role}}</p>
+        <p>{{intro}}</p>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section">
+  <a id="partners" name="partners"></a>
+  <h2 class="section-title">{{data.partners.title}}</h2>
+  <div class="section-content">
+    {{#each data.partners.content}}
+    <div class="content partners">
+      <a href="{{link}}" target="_blank">
+        <img src="{{image}}" alt="{{name}}"></img>
+      </a>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section">
+  <a id="jobs" name="jobs"></a>
+  <h2 class="section-title">{{data.jobs.title}}</h2>
+  <div class="section-content jobs">
+    {{#if data.jobs.content}}
+      {{#each data.jobs.content}}
+      <div class="content">
+        <h3>
+          <a href="{{pdf}}" target="_blank">{{title}}</a>
+        </h3>
+        <p>{{description}}</p>
+        <a href="{{pdf}}" target="_blank">Apply here.</a>
+      </div>
+      {{/each}}
+    {{else}}
+      <p class="no-jobs">
+        {{data.jobs.noJobsText}}<a href="mailto:rh@casa-rara.com" target="_blank"> rh@casa-rara.com</a>.
+      </p>
+    {{/if}}
+  </div>
+</section>
+
+<footer>
+  <a id="contact" name="contact"></a>
+  <div class="container">
+
+    <div class="contact">
+      {{data.footer.contact}}
+    </div>
+    <div class="social">
+      <a class="social-link" href="mailto:info@casa-rara.com" target="_blank">
+        <i class="fa fa-envelope"></i>
+      </a>
+      <a class="social-link" href="https://www.facebook.com/casararastudio/" target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a class="social-link" href="https://twitter.com/casararastudio" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </div>
+
+  </div>
+  <small class="copyright">{{data.footer.text}}</small>
+</footer>

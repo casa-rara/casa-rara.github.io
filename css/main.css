@@ -1,72 +1,318 @@
 html {
-    background-color: #000000;
-    color: #FFFFFF;
-    font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-size: 28px;
+  color: #5A5766;
+  font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  color: #242935;
+  font-family: "Nunito", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 a {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #f09fb3;
+  text-decoration: none;
+  transition: .5s;
 }
 
 a:hover {
-    text-decoration: underline;
+  color: inherit;
 }
 
-a:hover .partner-logo {
-    opacity: 0.5;
+.black {
+  color: #242935;
 }
 
-p {
-    margin-bottom: 0;
+.gray {
+  color: #5A5766;
 }
 
-.main-content {
-    align-items: center;
-    display: flex;
+.red {
+  color: #B1163D;
+}
+
+.orange {
+  color: #E4782D;
+}
+
+.white {
+  color: #F7F5F6;
+}
+
+.pink {
+  color: #f09fb3;
+}
+
+/* Navigation */
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  background-color: #242935;
+  color: #F7F5F6;
+  display: flex;
+}
+
+.navigation {
+  flex: 1;
+}
+
+.navigation a {
+  color: inherit;
+}
+
+.navigation a:hover {
+  color: #f09fb3;
+}
+
+.navigation ul {
+  display: flex;
+  padding-left: 30px;
+}
+
+.navigation .nav-links {
+  margin-right: 48px;
+}
+
+.lang-nav {
+  align-self: center;
+  margin-right: 24px;
+}
+
+.nav-links {
+  color: #F7F5F6;
+  cursor: pointer;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav-links:hover {
+  color: #f09fb3;
+}
+
+@media (max-width: 750px) { 
+  .navigation ul {
     flex-direction: column;
-    margin-top: 30px;
+  }
+}
+
+/* Banner */
+.banner {
+  background-image: url('https://casa-rara.github.io/img/banner/pattern.png');
+  background-position: 50% 20%;
+  background-size: 50%;
+  height: 100vh;
+  margin-top: 52px;
+  width: 100%;
+}
+
+.banner-container {
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
-    height: auto;
-    min-width: 320px;
-    max-width: 500px;
-    width: 40%;
+  max-height: 200px;
+  max-width: 200px;
 }
 
-.partner-logo {
-    height: auto;
-    width: 190px;
+.quote {
+  color: #242935;
+  font-size: 3rem;
+  margin-bottom: 6px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.partner-logo-text {
-    margin-bottom: 12px;
+.one-liner {
+  color: #242935;
+  font-size: 1.2rem;
+  margin-top: 0;
+  text-align: center;
+  width: 600px;
 }
 
-.info-text,
-.info-link {
-    margin-bottom: 12px;
+/* Sections */
+.section {
+  display: flex;
+  min-height: 200px;
 }
 
-@media (max-width: 780px) {
-    .logo {
-        max-width: 60%;
-    }
+.section:nth-child(2),
+.section:nth-child(3),
+.section:nth-child(4) {
+  min-height: 400px;
 }
 
-@media (max-width: 580px) {
-    html {
-        font-size: 1.5rem;
-    }
+.section:nth-child(odd) {
+  background-color: #F7F5F6;
+}
 
-    .partner-logo {
-        height: auto;
-        width: 164px;
-    }
+.section-title {
+  padding: 12px 30px;
+  text-transform: uppercase;
+}
 
-    .logo {
-        margin-bottom: 10%;
-    }
+.section-content {
+  align-self: center;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 18px 30px;
+}
+
+.content {
+  flex: 1;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.content:first-child {
+  padding-left: 0;
+}
+
+.content:last-child {
+  padding-right: 0;
+}
+
+.about {
+  max-width: 300px;
+}
+
+.projects {
+  max-width: 500px; 
+  text-align: center;
+}
+
+.projects img {
+  max-width: 400px;
+}
+
+.team {
+  display: flex;
+  margin: 12px;
+  min-width: 350px;
+}
+
+.team:first-child {
+  padding-left: 12px;
+}
+
+.team:last-child {
+  padding-right: 12px;
+}
+
+.team img {
+  border: 1px solid transparent;
+  height: 148px;
+  margin-right: 12px;
+  width: 148px;
+  transition: .5s;
+}
+
+.team img:hover {
+  border: 1px solid #f09fb3;
+}
+
+.team-name {
+  margin-bottom: 0;
+  margin-top: 0;
+  transition: .5s;
+}
+
+.team-name:hover {
+  color: #f09fb3;
+}
+
+.team-role {
+  margin-top: 6px;
+}
+
+.partners {
+  align-self: center;
+}
+
+.partners img {
+  max-width: 150px;
+  transition: 0.5s;
+}
+
+.partners img:hover {
+  opacity: 0.5;
+}
+
+/* Footer */
+
+footer {
+  background-color: #B1163D;
+  color: #F7F5F6;
+  padding: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  align-self: center;
+}
+
+.social {
+  display: flex;
+  margin: 24px auto 48px auto;
+  max-width: 800px;
+}
+
+.social-link {
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 48px;
+}
+
+.social-link i {
+  color: #B1163D;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+.social-link:hover i {
+  font-size: 1.5rem;
+}
+
+.copyright {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }

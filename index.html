@@ -1,46 +1,51 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        
-        <title>Casa Rara</title>
-        
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <title>Casa Rara</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css"> 
-    </head>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/main.css"> 
+  </head>
 
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <div class="main-content">
-            <img class="logo" src="img/logo.png" alt="Casa Rara Logo" />
-            
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    <div class="main-content">
+      <div class="fixed">
+        <nav>
+          <div id="js-navigation" class="navigation"></div>
+          <div id="js-lang-btn" class="lang-nav nav-links js-lang" data-lang="en">EN</div>
+        </nav>
+      </div>
 
-            <span>In residence at:</span>
-            <a class="partner-logo-text" href="http://milieux.concordia.ca/" target="_blank">
-                <img class="partner-logo" src="img/Milieux-White.png" alt="Milieux Concordia" />
-            </a>
+      <div id="js-content" class="wrap"></div>
+    </div>
 
-            <a class="info-link" href="http://www.linkedin.com/hp/update/6209069443205652480" target="_blank">Work at Casa Rara</a>
-            <a class="info-link" href="mailto:info@casa-rara.com" target="_blank">Contact Us</a>
-        </div>
+    <script type="text/javascript" src="./vendor/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="./vendor/handlebars-v4.0.5.js"></script>
+    <script type="text/javascript" src="./vendor/loadTemplate.js"></script>
+    <script type="text/javascript" src="./js/languages.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-        <!-- Google Analytics -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-87041900-1','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <!-- Google Analytics -->
+    <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-87041900-1','auto');ga('send','pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
-    </body>
+  </body>
 </html>
