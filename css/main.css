@@ -8,7 +8,7 @@ body {
   padding: 0;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 768px) { 
   body {
     overflow-x: hidden;
   }
@@ -100,6 +100,7 @@ nav {
 .lang-nav {
   align-self: center;
   margin-right: 48px;
+  padding: 0 12px;
 }
 
 .nav-links {
@@ -117,7 +118,7 @@ nav {
   display: none;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 768px) { 
   .navigation {
     background-color: #242935;
     bottom: 0;
@@ -206,14 +207,16 @@ nav {
 /* Sections */
 .top {
   display: flex;
+  width: 100%;
 }
 
 .section {
   display: flex;
   min-height: 200px;
+  width: 100%;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 768px) { 
   .section {
     flex-direction: column;
   }
@@ -258,7 +261,7 @@ nav {
   padding-right: 0;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 768px) { 
   .section-content {
     flex-direction: column;
   }
@@ -282,7 +285,7 @@ nav {
   max-width: 400px;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 768px) { 
   .projects img {
     max-width: 300px;
   }
@@ -302,7 +305,7 @@ nav {
   padding-right: 12px;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 768px) { 
   .team {
     min-width: 300px;
   }
@@ -346,7 +349,7 @@ nav {
   align-self: center;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 768px) { 
   .partners {
     margin-bottom: 24px;
   }
