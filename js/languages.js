@@ -32,7 +32,7 @@ function getBlob(selected) {
                 image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetry.png',
                 description: 'Le périple d\'une jeune fille à travers un musée fantastique où des personnages excentriques lutter pour restaurer l\'ordre et redécouvrir la symétrie qui les connecte tous. Crée par Paloma Dawkins, produit par le NFB et développé par Casa Rara. Développé pour HTC Vive / Oculus Rift.'
               }, {
-                title: 'EARTH 2 (titre temporaire)',
+                title: 'Earth 2 (titre temporaire)',
                 image: 'https://casa-rara.github.io/img/projects/Earth2.png',
                 description: 'Une simulation sociale en VR dans un monde vibrant, où humains, animaux et extra-terrestres vivent en harmonie.'
               }
@@ -154,7 +154,7 @@ function getBlob(selected) {
                 image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetry.png',
                 description: 'A young girl’s journey through a whimsical museum where oddball characters struggle to restore balance and rediscover the symmetry that connects all. Created by Paloma Dawkins, produced by the NFB and developed by Casa Rara. Built for HTC Vive / Oculus Rift.'
               }, {
-                title: 'EARTH 2 (temp title)',
+                title: 'Earth 2 (working title)',
                 image: 'https://casa-rara.github.io/img/projects/Earth2.png',
                 description: 'A hip single-player VR social simulation set in a vibrant world, where Humans, Animals and Aliens live together in harmony. The best of planet Earth. None of the fluff.'
               }

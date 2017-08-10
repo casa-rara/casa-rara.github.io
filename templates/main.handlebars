@@ -14,26 +14,30 @@
   <a id="about" name="about"></a>
   <h2 class="section-title">{{data.about.title}}</h2>
   <div class="section-content">
-    {{#each data.about.content}}
-    <div class="content about">
-      <h3>{{title}}</h3>
-      <p>{{description}}</p>
+    <div class="about-wrapper">
+      {{#each data.about.content}}
+      <div class="content about">
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      </div>
+      {{/each}}
     </div>
-    {{/each}}
   </div>
 </section>
 
 <section class="section">
   <a id="projects" name="projects"></a>
-  <h2 class="section-title">{{data.projects.title}}</h2>
-  <div class="section-content">
-    {{#each data.projects.content}}
-    <div class="content projects">
-      <h3>{{title}}</h3>
-      <img src="{{image}}"></img>
-      <p class="description">{{description}}</p>
+  <h2 class="section-title projects-title">{{data.projects.title}}</h2>
+  <div class="section-content projects-content">
+    <div class="about-wrapper">
+      {{#each data.projects.content}}
+      <div class="content projects">
+        <h2>{{title}}</h2>
+        <img src="{{image}}"></img>
+        <p class="description">{{description}}</p>
+      </div>
+      {{/each}}
     </div>
-    {{/each}}
   </div>
 </section>
 
@@ -41,27 +45,29 @@
   <a id="team" name="team"></a>
   <h2 class="section-title">{{data.team.title}}</h2>
   <div class="section-content team-wrapper">
-    {{#each data.team.content}}
-    <div class="content team">
-      <a href="{{linkedIn}}" target="_blank">
-        <img src="{{image}}"></img>
-      </a>
-      <div>
+    <div class="about-wrapper">
+      {{#each data.team.content}}
+      <div class="content team">
         <a href="{{linkedIn}}" target="_blank">
-          <h3 class="team-name">{{name}}</h3>
+          <img src="{{image}}"></img>
         </a>
-        <p class="team-role">{{role}}</p>
-        <p>{{intro}}</p>
+        <div>
+          <a href="{{linkedIn}}" target="_blank">
+            <h3 class="team-name">{{name}}</h3>
+          </a>
+          <p class="team-role">{{role}}</p>
+          <p>{{intro}}</p>
+        </div>
       </div>
+      {{/each}}
     </div>
-    {{/each}}
   </div>
 </section>
 
 <section class="section">
   <a id="partners" name="partners"></a>
   <h2 class="section-title">{{data.partners.title}}</h2>
-  <div class="section-content">
+  <div class="section-content partners-content">
     {{#each data.partners.content}}
     <div class="content partners">
       <a href="{{link}}" target="_blank">
