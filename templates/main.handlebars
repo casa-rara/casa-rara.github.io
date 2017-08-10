@@ -2,7 +2,7 @@
   <div class="banner">
     <div class="banner-container">
       <a href="/">
-        <img class="logo" src="https://casa-rara.github.io/img/banner/logo.png" alt="Casa Rara Logo"></img>
+        <img class="logo" src="https://casa-rara.github.io/img/banner/logo_color_dark.jpg" alt="Casa Rara Logo"></img>
       </a>
       <h1 class="quote">{{data.header.quote}}</h1>
       <p class="one-liner">{{data.header.oneLiner}}</p>
@@ -31,7 +31,7 @@
     <div class="content projects">
       <h3>{{title}}</h3>
       <img src="{{image}}"></img>
-      <p>{{description}}</p>
+      <p class="description">{{description}}</p>
     </div>
     {{/each}}
   </div>
@@ -40,7 +40,7 @@
 <section class="section">
   <a id="team" name="team"></a>
   <h2 class="section-title">{{data.team.title}}</h2>
-  <div class="section-content">
+  <div class="section-content team-wrapper">
     {{#each data.team.content}}
     <div class="content team">
       <a href="{{linkedIn}}" target="_blank">

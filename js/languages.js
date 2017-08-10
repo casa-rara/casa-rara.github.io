@@ -6,7 +6,7 @@ function getBlob(selected) {
     var lang = {
         fr : {
           header: {
-            quote: 'Le quotidien rendu formidable.',
+            quote: 'Le quotidien rendu formidable',
             oneLiner: 'CASA RARA est un studio montréalais d\'expert en réalité virtuelle, avec plus de 4 années d\'expérience en productions VR.'
           },
           about: {
@@ -28,11 +28,11 @@ function getBlob(selected) {
             title: 'Projets',
             content: [
               {
-                title: 'Museum of Symmetry - Q4 2017',
+                title: 'Museum of Symmetry',
                 image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetry.png',
                 description: 'Le périple d\'une jeune fille à travers un musée fantastique où des personnages excentriques lutter pour restaurer l\'ordre et redécouvrir la symétrie qui les connecte tous. Crée par Paloma Dawkins, produit par le NFB et développé par Casa Rara. Développé pour HTC Vive / Oculus Rift.'
               }, {
-                title: 'EARTH 2 (titre temporaire) - 2018',
+                title: 'EARTH 2 (titre temporaire)',
                 image: 'https://casa-rara.github.io/img/projects/Earth2.png',
                 description: 'Une simulation sociale en VR dans un monde vibrant, où humains, animaux et extra-terrestres vivent en harmonie.'
               }
@@ -128,7 +128,7 @@ function getBlob(selected) {
         },
         en: {
           header: {
-            quote: 'The Everyday made wonderful.',
+            quote: 'The Everyday made wonderful',
             oneLiner: 'CASA RARA is a Montreal-based studio of Virtual Reality pioneers, with 4 years of experience developing for VR.'
           },
           about: {
@@ -150,11 +150,11 @@ function getBlob(selected) {
             title: 'Projects',
             content: [
               {
-                title: 'Museum of Symmetry - Q4 2017',
+                title: 'Museum of Symmetry',
                 image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetry.png',
                 description: 'A young girl’s journey through a whimsical museum where oddball characters struggle to restore balance and rediscover the symmetry that connects all. Created by Paloma Dawkins, produced by the NFB and developed by Casa Rara. Built for HTC Vive / Oculus Rift.'
               }, {
-                title: 'EARTH 2 (temp title) - 2018',
+                title: 'EARTH 2 (temp title)',
                 image: 'https://casa-rara.github.io/img/projects/Earth2.png',
                 description: 'A hip single-player VR social simulation set in a vibrant world, where Humans, Animals and Aliens live together in harmony. The best of planet Earth. None of the fluff.'
               }

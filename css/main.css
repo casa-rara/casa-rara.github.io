@@ -20,12 +20,12 @@ h3,
 h4, 
 h5, 
 h6 {
-  color: #242935;
+  color: #5A5766;
   font-family: "Nunito", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 a {
-  color: #f09fb3;
+  color: #B1163D;
   text-decoration: none;
   transition: .5s;
 }
@@ -54,8 +54,8 @@ a:hover {
   color: #F7F5F6;
 }
 
-.pink {
-  color: #f09fb3;
+.off-white {
+  color: #FCFCFC;
 }
 
 /* Navigation */
@@ -85,7 +85,7 @@ nav {
 }
 
 .navigation a:hover {
-  color: #f09fb3;
+  color: #B1163D;
 }
 
 .navigation ul {
@@ -111,7 +111,7 @@ nav {
 }
 
 .nav-links:hover {
-  color: #f09fb3;
+  color: #B1163D;
 }
 
 .fa.mobile {
@@ -163,10 +163,15 @@ nav {
   background-image: url('https://casa-rara.github.io/img/banner/pattern.png');
   background-position: 50% 20%;
   background-size: 50%;
-  height: 100vh;
   margin-top: 52px;
-  padding-bottom: 24px;
+  padding: 48px 12px;
   width: 100%;
+}
+
+@media (max-width: 768px) { 
+  .banner {
+    padding: 18px 12px;
+  }
 }
 
 .banner-container {
@@ -192,15 +197,21 @@ nav {
   color: #242935;
   font-size: 3rem;
   margin-bottom: 6px;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) { 
+  .quote {
+    font-size: 2.5rem;
+  }
 }
 
 .one-liner {
   color: #242935;
   font-size: 1.2rem;
   margin-top: 0;
-  text-align: center;
+  text-align: justify;
   max-width: 600px;
 }
 
@@ -213,12 +224,14 @@ nav {
 .section {
   display: flex;
   min-height: 200px;
+  padding: 30px 12px;
   width: 100%;
 }
 
 @media (max-width: 768px) { 
   .section {
     flex-direction: column;
+    padding: 30px 0;
   }
 }
 
@@ -228,8 +241,22 @@ nav {
   min-height: 400px;
 }
 
-.section:nth-child(odd) {
+.section:nth-child(2),
+.section:nth-child(4),
+.section:nth-child(6) {
+  background-color: #FCFCFC;
+}
+
+.section:nth-child(3) {
+  background-color: #5A5766;
+}
+
+.section:nth-child(5) {
   background-color: #F7F5F6;
+}
+
+.section h2 {
+  color: #B1163D;
 }
 
 .section-title {
@@ -266,9 +293,12 @@ nav {
     flex-direction: column;
   }
 
-  .content {
-    padding-left: 0;
-    padding-right: 0;
+  .content:first-child {
+    padding-left: 12px;
+  }
+
+  .content:last-child {
+    padding-right: 12px;
   }
 }
 
@@ -277,11 +307,20 @@ nav {
 }
 
 .projects {
+  color: #F7F5F6;
   max-width: 500px; 
-  text-align: center;
+  text-align: justify;
+}
+
+.projects h3 {
+  color: #F7F5F6;
 }
 
 .projects img {
+  max-width: 400px;
+}
+
+.description {
   max-width: 400px;
 }
 
@@ -289,12 +328,21 @@ nav {
   .projects img {
     max-width: 300px;
   }
+
+  .description {
+    max-width: 300px;
+  }
+}
+
+.team-wrapper {
+  max-width: 1240px;
 }
 
 .team {
   display: flex;
   margin: 12px;
-  min-width: 350px;
+  min-width: 400px;
+  padding-bottom: 36px;
 }
 
 .team:first-child {
@@ -328,7 +376,7 @@ nav {
 }
 
 .team img:hover {
-  border: 1px solid #f09fb3;
+  border: 1px solid #B1163D;
 }
 
 .team-name {
@@ -338,7 +386,7 @@ nav {
 }
 
 .team-name:hover {
-  color: #f09fb3;
+  color: #B1163D;
 }
 
 .team-role {
@@ -412,6 +460,6 @@ footer {
 
 .copyright {
   display: inline-block;
-  text-align: center;
+  text-align: justify;
   width: 100%;
 }
