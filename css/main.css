@@ -295,7 +295,7 @@ nav {
   -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
   -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
   -ms-flex: 1;           /* IE 10 */
-  flex: 1;               /* NEW, Spec - Firefox, Chrome, Opera */
+  flex: 1 0 auto;               /* NEW, Spec - Firefox, Chrome, Opera */
   flex-direction: row;
   flex-wrap: wrap;
   padding: 18px 30px;
@@ -305,7 +305,7 @@ nav {
   -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
   -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
   -ms-flex: 1;           /* IE 10 */
-  flex: 1;               /* NEW, Spec - Firefox, Chrome, Opera */
+  flex: 1 0 auto;        /* NEW, Spec - Firefox, Chrome, Opera */
   padding-left: 48px;
   padding-right: 48px;
 }
