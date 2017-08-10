@@ -68,13 +68,15 @@
   <a id="partners" name="partners"></a>
   <h2 class="section-title">{{data.partners.title}}</h2>
   <div class="section-content partners-content">
-    {{#each data.partners.content}}
-    <div class="content partners">
-      <a href="{{link}}" target="_blank">
-        <img src="{{image}}" alt="{{name}}"></img>
-      </a>
+    <div class="about-wrapper">
+      {{#each data.partners.content}}
+      <div class="content partners">
+        <a href="{{link}}" target="_blank">
+          <img src="{{image}}" alt="{{name}}"></img>
+        </a>
+      </div>
+      {{/each}}
     </div>
-    {{/each}}
   </div>
 </section>
 

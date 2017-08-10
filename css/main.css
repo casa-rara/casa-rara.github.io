@@ -287,17 +287,6 @@ nav {
 }
 
 .section-content {
-  align-self: center;
-  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-  -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
-  -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
-  -ms-flex: 1;           /* IE 10 */
-  flex: 1 0 auto;               /* NEW, Spec - Firefox, Chrome, Opera */
-  flex-direction: row;
-  flex-wrap: wrap;
   padding: 18px 30px;
 }
 
@@ -310,17 +299,12 @@ nav {
   padding-right: 48px;
 }
 
-@media (max-width: 768px) { 
-  .section-content {
-    flex-direction: column;
-  }
-}
-
 .about-wrapper {
   display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
   display: -ms-flexbox;  /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -353,7 +337,7 @@ nav {
   justify-content: space-between;
   padding-bottom: 48px;
   padding-top: 60px;
-}
+} 
 
 .projects h2 {
   color: #F7F5F6;
@@ -389,6 +373,7 @@ nav {
 }
 
 .team-wrapper .about-wrapper {
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
