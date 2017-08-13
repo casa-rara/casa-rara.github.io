@@ -383,6 +383,10 @@ nav {
     padding-right: 0; 
     padding-top: inherit;
   }
+
+  .projects {
+    padding-bottom: 48px;
+  }
 }
 
 /* CSS for Team */
