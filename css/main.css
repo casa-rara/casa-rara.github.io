@@ -77,8 +77,7 @@ nav {
 }
 
 .navigation {
-  -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
-  -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
+  -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */       /* Safari 6.1+. iOS 7.1+, BB10 */
   -ms-flex: 1;           /* IE 10 */
   flex: 1;               /* NEW, Spec - Firefox, Chrome, Opera */
   color: #F7F5F6;
@@ -105,7 +104,8 @@ nav {
 }
 
 .lang-nav {
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   margin-right: 30px;
   padding: 0 12px;
 }
@@ -129,13 +129,12 @@ nav {
   .navigation {
     background-color: #242935;
     bottom: 0;
-    -webkit-box-shadow: 3px 0px 5px 0px rgba(36,41,53,1);
-    -moz-box-shadow: 3px 0px 5px 0px rgba(36,41,53,1);
     box-shadow: 3px 0px 5px 0px rgba(36,41,53,1);
     left: 0;
     overflow: hidden;
     position: fixed;
     top: 48px;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     width: 0;
   }
@@ -184,9 +183,7 @@ nav {
  -ms-grid-row-align: center;
         align-items: center;
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,6 +206,7 @@ nav {
 
 .quote {
   color: #242935;
+  font-size: 48px;
   font-size: 3rem;
   margin-bottom: 6px;
   text-align: center;
@@ -217,6 +215,7 @@ nav {
 
 .one-liner {
   color: #242935;
+  font-size: 19.2px;
   font-size: 1.2rem;
   margin-top: 0;
   text-align: center;
@@ -462,16 +461,19 @@ nav {
 }
 
 .partners {
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   padding: 30px;
 }
 
 .partners img {
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .partners img:hover {
   opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 }
 
 @media (max-width: 768px) { 
@@ -500,7 +502,8 @@ footer {
 }
 
 .contact {
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .social {
@@ -535,11 +538,14 @@ footer {
 
 .social-link i {
   color: #B1163D;
+  font-size: 20.8px;
   font-size: 1.3rem;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .social-link:hover i {
+  font-size: 24px;
   font-size: 1.5rem;
 }
 
