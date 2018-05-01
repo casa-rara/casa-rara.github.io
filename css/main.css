@@ -218,6 +218,7 @@ nav {
   font-size: 19.2px;
   font-size: 1.2rem;
   margin-top: 0;
+  max-width: 1000px;
   text-align: center;
 }
 
@@ -489,14 +490,17 @@ nav {
 }
 
 .partners {
+  align-self: center;
   -ms-flex-item-align: center;
-      align-self: center;
+  max-width: 75px;
   padding: 30px;
 }
 
 .partners img {
-  -webkit-transition: 0.5s;
+  height: auto;
   transition: 0.5s;
+  -webkit-transition: 0.5s;
+  width: 100%;
 }
 
 .partners img:hover {

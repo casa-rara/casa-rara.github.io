@@ -7,17 +7,17 @@ function getBlob(selected) {
         fr : {
           header: {
             quote: 'Le quotidien rendu formidable',
-            oneLiner: 'CASA RARA est un studio montréalais d\'expert en réalité virtuelle, avec plus de 4 années d\'expérience en productions VR.'
+            oneLiner: 'CASA RARA est un studio Montréalais pionnier du développement de jeux vidéo et média immersifs, avec 5 ans d\'expérience en Réalité Virtuelle et s\'intéressant à la Réalité Augmenté.'
           },
           about: {
             title: 'À propos',
             content: [
               {
                 title: 'Services de Consultation',
-                description: 'Nous aidons à réaliser la vision de vos projets VR, à temps et dans vos budgets, avec l\'aide d\'experts en développement de jeux VR, projets éducatifs, récits interactifs et gestion de projet.'
+                description: 'Nous aidons a realiser la vision de vos projets RV et RA, a temps et dans vos budgets, avec l\'aide d\'experts en developpement de jeux, projets educatifs, recits interactifs et gestion de projet.'
               }, {
-                title: 'Développement VR',
-                description: 'Nous offrons notre expertise à tous développeurs ayant besoin d\'assistance dans la création de leurs projets. Éviter les embûches et les premières erreurs de développement en réalité virtuelle pour obtenir des résultats de qualité. Du concept initial, à travers la production jusqu\'au lancement.'
+                title: 'Développement VR et RA',
+                description: 'Nous offrons notre expertise aux developpeurs, artistes et institutions culturelles en quête d\'assistance dans la création de leurs projets. Évitez les embûches et premières erreurs du développement en réalités virtuelles et augmentées et atteignez les résultats dignes de ce nom. Depuis la conception initiale, jusqu\'au lancement et à travers tout le cycle de production.'
               }, {
                 title: 'Jeux',
                 description: 'Nous créons des jeux permettant aux joueurs d\'explorer les aspects complexes de l\'expérience humaine d\'un point de vue invitant et amusant.'
@@ -28,13 +28,13 @@ function getBlob(selected) {
             title: 'Projets',
             content: [
               {
-                title: 'Museum of Symmetry',
-                image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetry.png',
-                description: 'Le périple d\'une jeune fille à travers un musée fantastique où des personnages excentriques lutter pour restaurer l\'ordre et redécouvrir la symétrie qui les connecte tous. Crée par Paloma Dawkins, produit par le NFB et développé par Casa Rara. Développé pour HTC Vive / Oculus Rift.'
+                title: 'Musée de la symétrie',
+                image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetryFR.jpg',
+                description: 'Musée de la symétrie illustre l’univers parallèle pétillant et joyeux de la bédéiste et animatrice Paloma Dawkins. Une expérience de réalité virtuelle où l’animation en 2D se déploie dans un terrain de jeu en 3D à l’échelle d’une pièce. Produit par le NFB et developpe par Casa Rara, pour HTC Vive.'
               }, {
-                title: 'Earth 2 (titre temporaire)',
-                image: 'https://casa-rara.github.io/img/projects/Earth2.png',
-                description: 'Une simulation sociale en VR dans un monde vibrant, où humains, animaux et extra-terrestres vivent en harmonie.'
+                title: 'Le Facteur de l\'Espace',
+                image: 'https://casa-rara.github.io/img/projects/LeFacteurDeLespace.jpg',
+                description: 'Un jeu pour plateformes mobiles avec de la Realité Augmenté, adapté du Facteur de l’Espace, la bande-dessinée jeunesse à succès de Guillaume Perreault. Les aventures de Bob et les mystérieux colis qu’il doit livrer à travers la galaxie. Financé par la FMC, produit par La Pastèque et URBANIA et en developpement par Casa Rara.'
               }
             ]
           },
@@ -57,14 +57,8 @@ function getBlob(selected) {
                 name: 'Clement Linel',
                 image: 'https://casa-rara.github.io/img/team/Clement.png', 
                 linkedIn: 'https://www.linkedin.com/in/cl%C3%A9ment-linel-0421843/',
-                role: 'Programmeur Lead',
-                intro: 'Ingénieur senior avec expertise en AI'
-              }, {
-                name: 'Nicolas Barriere-Kucharski',
-                image: 'https://casa-rara.github.io/img/team/Nicolas.png', 
-                linkedIn: 'https://www.linkedin.com/in/nicolasbarrierek/',
-                role: 'Concepteur de jeux Senior',
-                intro: 'Créateur, planificateur et scripteur in-engine hors pair'
+                role: 'Programmeur',
+                intro: 'Ingenieur senior avec expérience en AAA et Indie'
               }, {
                 name: 'Eliott Le Calvé',
                 image: 'https://casa-rara.github.io/img/team/Eliott.png', 
@@ -77,7 +71,14 @@ function getBlob(selected) {
                 linkedIn: 'https://www.linkedin.com/in/charl%C3%A8ne-boutin-633129b4/',
                 role: 'Conceptrice de jeux Junior',
                 intro: 'Nouveau talent en design de niveaux et systèmes'
-              }
+              }, 
+              // {
+              //   name: 'Beatrix Moersch', 
+              //   linkedIn: 'https://www.linkedin.com/in/beatrixmoersch/',
+              //   role: 'Conceptrice sonore & compositrice',
+              //   image: 'https://casa-rara.github.io/img/team/Nicolas.png',
+              //   intro: 'Spécialiste en son et musique pour des récits immersifs'
+              // }
             ]
           },
           partners: {
@@ -107,7 +108,22 @@ function getBlob(selected) {
                 name: 'NFB',
                 image: 'https://casa-rara.github.io/img/partners/NFBGrey.png',
                 link: 'https://www.nfb.ca'
-              }
+              },
+              {
+                name: 'CMF - FMC',
+                image: 'https://casa-rara.github.io/img/partners/CMFGrey.png',
+                link: 'https://www.cmf-fmc.ca/'
+              },
+              {
+                name: 'La Pasteque',
+                image: 'https://casa-rara.github.io/img/partners/LaPastequeGrey.png',
+                link: 'https://www.lapasteque.com/'
+              },
+              {
+                name: 'URBANIA',
+                image: 'https://casa-rara.github.io/img/partners/UrbaniaGrey.png',
+                link: 'https://urbania.ca/'
+              } 
             ]
           },
           jobs: {
@@ -123,23 +139,23 @@ function getBlob(selected) {
           },
           footer: {
             contact: 'Contactez-nous!',
-            text: '© 2016-2017 Casa Rara Studio, Inc. Tout droits réservés.'
+            text: '© 2016-2018 Casa Rara Studio, Inc. Tout droits réservés.'
           }
         },
         en: {
           header: {
             quote: 'The Everyday made wonderful',
-            oneLiner: 'CASA RARA is a Montreal-based studio of Virtual Reality pioneers, with 4 years of experience developing for VR.'
+            oneLiner: 'CASA RARA is a Montreal-based studio of game developers and immersive media pioneers, with 5 years of experience in Virtual Reality and a new found interest in AR.'
           },
           about: {
             title: 'About',
             content: [
               {
                 title: 'Consulting Services',
-                description: 'We help you achieve the vision of your VR project on time and within budget with proven experts in VR, game development, educational projects, interactive storytelling & project management.'
+                description: 'We help you achieve the vision of your project on time and within budget with proven experts in VR, AR, game development, educational projects, interactive storytelling & project management.'
               }, {
-                title: 'VR Development',
-                description: 'We offer our expertise to other developers who requiring assistance create their own projects. Skip the painful and costly learning curve of developing in virtual reality, to achieve excellent, high-quality results on time and within budget. From initial concept, through production to final launch.'
+                title: 'VR and AR Development',
+                description: 'We offer our expertise to other developers, artists and cultural institutions who require assistance to create their own projects. Skip the painful and costly learning curve of developing in virtual and augmented reality, to achieve excellent, high-quality results. From initial concept, through production to final launch.'
               }, {
                 title: 'Games',
                 description: 'We make games that allow players to explore the complex aspects of daily human life from an inviting & fun perspective.'
@@ -152,11 +168,11 @@ function getBlob(selected) {
               {
                 title: 'Museum of Symmetry',
                 image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetry.png',
-                description: 'A young girl’s journey through a whimsical museum where oddball characters struggle to restore balance and rediscover the symmetry that connects all. Created by Paloma Dawkins, produced by the NFB and developed by Casa Rara. Built for HTC Vive / Oculus Rift.'
+                description: 'An absurdist mind-and-body romp through the highest clouds to the ocean deep, Museum of Symmetry is the explosive feel-good alter-universe of cartoonist and animator Paloma Dawkins—a room-scale VR experience with 2D animation in a 3D playground. Produced by the NFB and developed by Casa Rara. Built for HTC Vive.'
               }, {
-                title: 'Earth 2 (working title)',
-                image: 'https://casa-rara.github.io/img/projects/Earth2.png',
-                description: 'A hip single-player VR social simulation set in a vibrant world, where Humans, Animals and Aliens live together in harmony. The best of planet Earth. None of the fluff.'
+                title: 'Le Facteur de l\'Espace',
+                image: 'https://casa-rara.github.io/img/projects/LeFacteurDeLespace.jpg',
+                description: 'A mobile game with engaging AR features based on Guillaume Perreault\'s best-selling youth comic book. The adventures of Bob and the mysterious packages he has to deliver across the galaxy. Funded by the CMF, Produced by La Pastèque and URBANIA and in-development by Casa Rara.'
               }
             ]
           },
@@ -179,14 +195,8 @@ function getBlob(selected) {
                 name: 'Clement Linel',
                 image: 'https://casa-rara.github.io/img/team/Clement.png',
                 linkedIn: 'https://www.linkedin.com/in/cl%C3%A9ment-linel-0421843/',
-                role: 'Lead Programmer',
-                intro: 'Senior engineer with key AI mastery'
-              }, {
-                name: 'Nicolas Barriere-Kucharski', 
-                linkedIn: 'https://www.linkedin.com/in/nicolasbarrierek/',
-                role: 'Senior Designer',
-                image: 'https://casa-rara.github.io/img/team/Nicolas.png',
-                intro: 'Master planner, creator and in-engine scripter'
+                role: 'Programmer',
+                intro: 'Senior engineer with AAA and Indie experience'
               }, {
                 name: 'Eliott Le Calvé',
                 image: 'https://casa-rara.github.io/img/team/Eliott.png', 
@@ -197,9 +207,16 @@ function getBlob(selected) {
                 name: 'Charlène Boutin',
                 image: 'https://casa-rara.github.io/img/team/Charlene.png',
                 linkedIn: 'https://www.linkedin.com/in/charl%C3%A8ne-boutin-633129b4/',
-                role: 'Junior Game Designer',
+                role: 'Game Designer',
                 intro: 'Rising talent in level and systems design'
-              }
+              }, 
+              // {
+              //   name: 'Beatrix Moersch', 
+              //   linkedIn: 'https://www.linkedin.com/in/beatrixmoersch/',
+              //   role: 'Sound Designer & Composer',
+              //   image: 'https://casa-rara.github.io/img/team/Nicolas.png',
+              //   intro: 'Specialist in immersive, story-oriented sound and music'
+              // }
             ]
           },
           partners: {
@@ -229,6 +246,21 @@ function getBlob(selected) {
                 name: 'NFB',
                 image: 'https://casa-rara.github.io/img/partners/NFBGrey.png',
                 link: 'https://www.nfb.ca'
+              },
+              {
+                name: 'CMF',
+                image: 'https://casa-rara.github.io/img/partners/CMFGrey.png',
+                link: 'https://www.cmf-fmc.ca/'
+              },
+              {
+                name: 'La Pasteque',
+                image: 'https://casa-rara.github.io/img/partners/LaPastequeGrey.png',
+                link: 'https://www.lapasteque.com/'
+              },
+              {
+                name: 'URBANIA',
+                image: 'https://casa-rara.github.io/img/partners/UrbaniaGrey.png',
+                link: 'https://urbania.ca/'
               }
             ]
           },
@@ -245,7 +277,7 @@ function getBlob(selected) {
           },
           footer: {
             contact: 'Contact us!',
-            text: '© 2016-2017 Casa Rara Studio, Inc. All rights reserved.'
+            text: '© 2016-2018 Casa Rara Studio, Inc. All rights reserved.'
           }
         }
     };
