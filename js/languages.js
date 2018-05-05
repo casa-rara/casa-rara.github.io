@@ -30,7 +30,8 @@ function getBlob(selected) {
               {
                 title: 'Musée de la symétrie',
                 image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetryFR.jpg',
-                description: 'Musée de la symétrie illustre l’univers parallèle pétillant et joyeux de la bédéiste et animatrice Paloma Dawkins. Une expérience de réalité virtuelle où l’animation en 2D se déploie dans un terrain de jeu en 3D à l’échelle d’une pièce. Produit par le NFB et developpe par Casa Rara, pour HTC Vive.'
+                description: 'Musée de la symétrie illustre l’univers parallèle pétillant et joyeux de la bédéiste et animatrice Paloma Dawkins. Une expérience de réalité virtuelle où l’animation en 2D se déploie dans un terrain de jeu en 3D à l’échelle d’une pièce. Produit par le NFB et developpe par Casa Rara, pour HTC Vive.',
+                video: 'https://www.youtube.com/embed/2XID_W4neJo?rel=0'
               }, {
                 title: 'Le Facteur de l\'Espace',
                 image: 'https://casa-rara.github.io/img/projects/LeFacteurDeLespace.jpg',
@@ -167,8 +168,9 @@ function getBlob(selected) {
             content: [
               {
                 title: 'Museum of Symmetry',
-                image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetry.png',
-                description: 'An absurdist mind-and-body romp through the highest clouds to the ocean deep, Museum of Symmetry is the explosive feel-good alter-universe of cartoonist and animator Paloma Dawkins—a room-scale VR experience with 2D animation in a 3D playground. Produced by the NFB and developed by Casa Rara. Built for HTC Vive.'
+                image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetryFR.jpg',
+                description: 'An absurdist mind-and-body romp through the highest clouds to the ocean deep, Museum of Symmetry is the explosive feel-good alter-universe of cartoonist and animator Paloma Dawkins—a room-scale VR experience with 2D animation in a 3D playground. Produced by the NFB and developed by Casa Rara. Built for HTC Vive.',
+                video: 'https://www.youtube.com/embed/2XID_W4neJo?rel=0'
               }, {
                 title: 'Le Facteur de l\'Espace',
                 image: 'https://casa-rara.github.io/img/projects/LeFacteurDeLespace.jpg',

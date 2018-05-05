@@ -33,7 +33,27 @@
       {{#each data.projects.content}}
       <div class="content projects">
         <h2>{{title}}</h2>
-        <img src="{{image}}"></img>
+
+        {{#if video}}
+          <div class="video-trigger" data-trigger-modal="video-modal">
+            <img src="{{image}}"></img>
+            <i class="fa fa-play-circle"></i>
+          </div>
+
+          <div class="modal" id="video-modal">
+            <div class="modal__window">
+              <div class="modal__header">
+                <span class="modal__close-btn" data-close-modal>X</span>
+              </div>
+              <div class="modal__content">
+                <iframe width="560" height="315" src="{{video}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        {{else}}
+          <img src="{{image}}"></img>
+        {{/if}}
+
         <p class="description">{{description}}</p>
       </div>
       {{/each}}
