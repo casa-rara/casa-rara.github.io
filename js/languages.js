@@ -31,7 +31,7 @@ function getBlob(selected) {
                 title: 'Musée de la symétrie',
                 image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetryFR.jpg',
                 description: 'Musée de la symétrie illustre l’univers parallèle pétillant et joyeux de la bédéiste et animatrice Paloma Dawkins. Une expérience de réalité virtuelle où l’animation en 2D se déploie dans un terrain de jeu en 3D à l’échelle d’une pièce. Produit par le NFB et developpe par Casa Rara, pour HTC Vive.',
-                video: 'https://www.youtube.com/embed/2XID_W4neJo?rel=0'
+                video: 'https://player.vimeo.com/video/261848776'
               }, {
                 title: 'Le Facteur de l\'Espace',
                 image: 'https://casa-rara.github.io/img/projects/LeFacteurDeLespace.jpg',
@@ -50,31 +50,31 @@ function getBlob(selected) {
                 intro: 'Spécialiste narratif de plus de 8 ans'
               }, {
                 name: 'Tali Goldstein',
-                image: 'https://casa-rara.github.io/img/team/Tali.png', 
+                image: 'https://casa-rara.github.io/img/team/Tali.png',
                 linkedIn: 'https://www.linkedin.com/in/tali-goldstein-78b1a439/',
                 role: 'Cofondatrice & Productrice',
                 intro: 'Directrice d’expérience & experte en publishing'
               }, {
                 name: 'Clement Linel',
-                image: 'https://casa-rara.github.io/img/team/Clement.png', 
+                image: 'https://casa-rara.github.io/img/team/Clement.png',
                 linkedIn: 'https://www.linkedin.com/in/cl%C3%A9ment-linel-0421843/',
                 role: 'Programmeur',
                 intro: 'Ingenieur senior avec expérience en AAA et Indie'
               }, {
                 name: 'Eliott Le Calvé',
-                image: 'https://casa-rara.github.io/img/team/Eliott.png', 
+                image: 'https://casa-rara.github.io/img/team/Eliott.png',
                 linkedIn: 'https://www.linkedin.com/in/eliottlecalve/',
                 role: 'Artiste',
                 intro: 'Expert 3D, illustrateur et polymathe'
               }, {
                 name: 'Charlène Boutin',
-                image: 'https://casa-rara.github.io/img/team/Charlene.png', 
+                image: 'https://casa-rara.github.io/img/team/Charlene.png',
                 linkedIn: 'https://www.linkedin.com/in/charl%C3%A8ne-boutin-633129b4/',
                 role: 'Conceptrice de jeux Junior',
                 intro: 'Nouveau talent en design de niveaux et systèmes'
-              }, 
+              },
               // {
-              //   name: 'Beatrix Moersch', 
+              //   name: 'Beatrix Moersch',
               //   linkedIn: 'https://www.linkedin.com/in/beatrixmoersch/',
               //   role: 'Conceptrice sonore & compositrice',
               //   image: 'https://casa-rara.github.io/img/team/Nicolas.png',
@@ -124,7 +124,7 @@ function getBlob(selected) {
                 name: 'URBANIA',
                 image: 'https://casa-rara.github.io/img/partners/UrbaniaGrey.png',
                 link: 'https://urbania.ca/'
-              } 
+              }
             ]
           },
           jobs: {
@@ -170,7 +170,7 @@ function getBlob(selected) {
                 title: 'Museum of Symmetry',
                 image: 'https://casa-rara.github.io/img/projects/MuseumOfSymmetryFR.jpg',
                 description: 'An absurdist mind-and-body romp through the highest clouds to the ocean deep, Museum of Symmetry is the explosive feel-good alter-universe of cartoonist and animator Paloma Dawkins—a room-scale VR experience with 2D animation in a 3D playground. Produced by the NFB and developed by Casa Rara. Built for HTC Vive.',
-                video: 'https://www.youtube.com/embed/2XID_W4neJo?rel=0'
+                video: 'https://player.vimeo.com/video/261848776'
               }, {
                 title: 'Le Facteur de l\'Espace',
                 image: 'https://casa-rara.github.io/img/projects/LeFacteurDeLespace.jpg',
@@ -201,7 +201,7 @@ function getBlob(selected) {
                 intro: 'Senior engineer with AAA and Indie experience'
               }, {
                 name: 'Eliott Le Calvé',
-                image: 'https://casa-rara.github.io/img/team/Eliott.png', 
+                image: 'https://casa-rara.github.io/img/team/Eliott.png',
                 linkedIn: 'https://www.linkedin.com/in/eliottlecalve/',
                 role: 'Artist',
                 intro: 'Skilled 3D artist, illustrator and polymath'
@@ -211,9 +211,9 @@ function getBlob(selected) {
                 linkedIn: 'https://www.linkedin.com/in/charl%C3%A8ne-boutin-633129b4/',
                 role: 'Game Designer',
                 intro: 'Rising talent in level and systems design'
-              }, 
+              },
               // {
-              //   name: 'Beatrix Moersch', 
+              //   name: 'Beatrix Moersch',
               //   linkedIn: 'https://www.linkedin.com/in/beatrixmoersch/',
               //   role: 'Sound Designer & Composer',
               //   image: 'https://casa-rara.github.io/img/team/Nicolas.png',
