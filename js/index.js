@@ -7,13 +7,23 @@ document.onreadystatechange = function () {
   addLangEventListener();
 }
 
+var timeoutID;
+
 function addLangEventListener() {
   var langButton = document.getElementById('js-lang-btn');
-  
+
   langButton.onclick = function(){
     switchLanguage(this.getAttribute('data-lang'));
     return false;
   };
+}
+
+function initialiseModal() {
+  var modalEl = document.getElementById('video-modal');
+  var modalExample = new Modal(modalEl);
+  modalExample.init();
+
+  window.clearTimeout(timeoutID);
 }
 
 function addMobileNavEventListener() {
@@ -70,6 +80,7 @@ function addNavigation(data) {
   tpl.create(function(){
     addSmoothScrolling();
     addMobileNavEventListener();
+    timeoutID = window.setTimeout(initialiseModal, 1000);
   });
 }
 
