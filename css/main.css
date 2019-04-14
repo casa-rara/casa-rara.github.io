@@ -77,9 +77,13 @@ nav {
 }
 
 .navigation {
-  -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */       /* Safari 6.1+. iOS 7.1+, BB10 */
-  -ms-flex: 1;           /* IE 10 */
-  flex: 1;               /* NEW, Spec - Firefox, Chrome, Opera */
+  -webkit-box-flex: 1;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  /* Safari 6.1+. iOS 7.1+, BB10 */
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+  /* NEW, Spec - Firefox, Chrome, Opera */
   color: #F7F5F6;
   position: fixed;
 }
@@ -105,7 +109,7 @@ nav {
 
 .lang-nav {
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   margin-right: 30px;
   padding: 0 12px;
 }
@@ -129,7 +133,7 @@ nav {
   .navigation {
     background-color: #242935;
     bottom: 0;
-    box-shadow: 3px 0px 5px 0px rgba(36,41,53,1);
+    box-shadow: 3px 0px 5px 0px rgba(36, 41, 53, 1);
     left: 0;
     overflow: hidden;
     position: fixed;
@@ -179,9 +183,9 @@ nav {
 
 .banner-container {
   -webkit-box-align: center;
-     -ms-flex-align: center;
- -ms-grid-row-align: center;
-        align-items: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-box;
@@ -218,7 +222,7 @@ nav {
   font-size: 19.2px;
   font-size: 1.2rem;
   margin-top: 0;
-  max-width: 1000px;
+  max-width: 800px;
   text-align: center;
 }
 
@@ -315,7 +319,7 @@ nav {
   .about-wrapper {
     -webkit-box-align: center;
     -ms-flex-align: center;
-   -ms-grid-row-align: center;
+    -ms-grid-row-align: center;
     align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -365,7 +369,8 @@ nav {
 .projects img {
   max-width: 100%;
   height: auto;
-  width: auto; /* for ie9 */
+  width: auto;
+  /* for ie9 */
 }
 
 .video-trigger {
@@ -407,7 +412,8 @@ nav {
   margin-top: 48px;
   max-width: 800px;
   min-width: 400px;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
+  /* 16:9 */
   padding-top: 25px;
   position: relative;
 }
@@ -540,7 +546,7 @@ nav {
 
 .partners-content .about-wrapper {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .partners {
@@ -604,7 +610,7 @@ footer {
 .social-link {
   -webkit-box-align: center;
   -ms-flex-align: center;
- -ms-grid-row-align: center;
+  -ms-grid-row-align: center;
   align-items: center;
   background-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.5);
