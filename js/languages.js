@@ -48,53 +48,6 @@ function getBlob(selected) {
           },
         ],
       },
-      team: {
-        title: 'Équipe',
-        content: [
-          {
-            name: 'Ruben Farrus',
-            image: 'https://casa-rara.github.io/img/team/Ruben.png',
-            linkedIn: 'https://www.linkedin.com/in/rubenfarrus/',
-            role: 'Cofondateur & Directeur Créatif',
-            intro: 'Spécialiste narratif de plus de 8 ans',
-          },
-          {
-            name: 'Tali Goldstein',
-            image: 'https://casa-rara.github.io/img/team/Tali.png',
-            linkedIn: 'https://www.linkedin.com/in/tali-goldstein-78b1a439/',
-            role: 'Cofondatrice & Productrice',
-            intro: 'Directrice d’expérience & experte en publishing',
-          },
-          {
-            name: 'Clement Linel',
-            image: 'https://casa-rara.github.io/img/team/Clement.png',
-            linkedIn: 'https://www.linkedin.com/in/cl%C3%A9ment-linel-0421843/',
-            role: 'Programmeur',
-            intro: 'Ingenieur senior avec expérience en AAA et Indie',
-          },
-          {
-            name: 'Eliott Le Calvé',
-            image: 'https://casa-rara.github.io/img/team/Eliott.png',
-            linkedIn: 'https://www.linkedin.com/in/eliottlecalve/',
-            role: 'Artiste',
-            intro: 'Expert 3D, illustrateur et polymathe',
-          },
-          {
-            name: 'Charlène Boutin',
-            image: 'https://casa-rara.github.io/img/team/Charlene.png',
-            linkedIn: 'https://www.linkedin.com/in/charl%C3%A8ne-boutin-633129b4/',
-            role: 'Conceptrice de jeux Junior',
-            intro: 'Nouveau talent en design de niveaux et systèmes',
-          },
-          // {
-          //   name: 'Beatrix Moersch',
-          //   linkedIn: 'https://www.linkedin.com/in/beatrixmoersch/',
-          //   role: 'Conceptrice sonore & compositrice',
-          //   image: 'https://casa-rara.github.io/img/team/Nicolas.png',
-          //   intro: 'Spécialiste en son et musique pour des récits immersifs'
-          // }
-        ],
-      },
       partners: {
         title: 'Partenaires',
         content: [
@@ -154,7 +107,7 @@ function getBlob(selected) {
       },
       footer: {
         contact: 'Contactez-nous!',
-        text: '© 2016-2018 Casa Rara Studio, Inc. Tout droits réservés.',
+        text: '© 2016-2019 Casa Rara Studio, Inc. Tout droits réservés.',
       },
     },
     en: {
@@ -199,53 +152,6 @@ function getBlob(selected) {
             description:
               "A mobile game with engaging AR features based on Guillaume Perreault's best-selling youth comic book. The adventures of Bob and the mysterious packages he has to deliver across the galaxy. Funded by the CMF, Produced by La Pastèque and URBANIA and in-development by Casa Rara.",
           },
-        ],
-      },
-      team: {
-        title: 'Team',
-        content: [
-          {
-            name: 'Ruben Farrus',
-            image: 'https://casa-rara.github.io/img/team/Ruben.png',
-            linkedIn: 'https://www.linkedin.com/in/rubenfarrus/',
-            role: 'Co-Founder & Creative Director',
-            intro: 'Award-winning narrative specialist of over 8 years',
-          },
-          {
-            name: 'Tali Goldstein',
-            image: 'https://casa-rara.github.io/img/team/Tali.png',
-            linkedIn: 'https://www.linkedin.com/in/tali-goldstein-78b1a439/',
-            role: 'Co-Founder & Producer',
-            intro: 'Leader & publishing relations ace',
-          },
-          {
-            name: 'Clement Linel',
-            image: 'https://casa-rara.github.io/img/team/Clement.png',
-            linkedIn: 'https://www.linkedin.com/in/cl%C3%A9ment-linel-0421843/',
-            role: 'Programmer',
-            intro: 'Senior engineer with AAA and Indie experience',
-          },
-          {
-            name: 'Eliott Le Calvé',
-            image: 'https://casa-rara.github.io/img/team/Eliott.png',
-            linkedIn: 'https://www.linkedin.com/in/eliottlecalve/',
-            role: 'Artist',
-            intro: 'Skilled 3D artist, illustrator and polymath',
-          },
-          {
-            name: 'Charlène Boutin',
-            image: 'https://casa-rara.github.io/img/team/Charlene.png',
-            linkedIn: 'https://www.linkedin.com/in/charl%C3%A8ne-boutin-633129b4/',
-            role: 'Game Designer',
-            intro: 'Rising talent in level and systems design',
-          },
-          // {
-          //   name: 'Beatrix Moersch',
-          //   linkedIn: 'https://www.linkedin.com/in/beatrixmoersch/',
-          //   role: 'Sound Designer & Composer',
-          //   image: 'https://casa-rara.github.io/img/team/Nicolas.png',
-          //   intro: 'Specialist in immersive, story-oriented sound and music'
-          // }
         ],
       },
       partners: {
@@ -307,7 +213,7 @@ function getBlob(selected) {
       },
       footer: {
         contact: 'Contact us!',
-        text: '© 2016-2018 Casa Rara Studio, Inc. All rights reserved.',
+        text: '© 2016-2019 Casa Rara Studio, Inc. All rights reserved.',
       },
     },
   };

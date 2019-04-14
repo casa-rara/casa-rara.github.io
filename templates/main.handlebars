@@ -2,7 +2,8 @@
   <div class="banner">
     <div class="banner-container">
       <a href="/">
-        <img class="logo" src="https://casa-rara.github.io/img/banner/logo_color_dark.png" alt="Casa Rara Logo"></img>
+        <img class="logo" src="https://casa-rara.github.io/img/banner/logo_color_dark.png"
+          alt="Casa Rara Logo"></img>
       </a>
       <h1 class="quote">{{data.header.quote}}</h1>
       <p class="one-liner">{{data.header.oneLiner}}</p>
@@ -35,49 +36,27 @@
         <h2>{{title}}</h2>
 
         {{#if video}}
-          <div class="video-trigger" data-trigger-modal="video-modal">
-            <img src="{{image}}"></img>
-            <i class="fa fa-play-circle"></i>
-          </div>
+        <div class="video-trigger" data-trigger-modal="video-modal">
+          <img src="{{image}}"></img>
+          <i class="fa fa-play-circle"></i>
+        </div>
 
-          <div class="modal" id="video-modal">
-            <div class="modal__window">
-              <div class="modal__header">
-                <span class="modal__close-btn" data-close-modal>X</span>
-              </div>
-              <div class="modal__content">
-                <iframe src="{{video}}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              </div>
+        <div class="modal" id="video-modal">
+          <div class="modal__window">
+            <div class="modal__header">
+              <span class="modal__close-btn" data-close-modal>X</span>
+            </div>
+            <div class="modal__content">
+              <iframe src="{{video}}" width="640" height="360" frameborder="0" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen></iframe>
             </div>
           </div>
+        </div>
         {{else}}
-          <img src="{{image}}"></img>
+        <img src="{{image}}"></img>
         {{/if}}
 
         <p class="description">{{description}}</p>
-      </div>
-      {{/each}}
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <a id="team" name="team"></a>
-  <h2 class="section-title">{{data.team.title}}</h2>
-  <div class="section-content team-wrapper">
-    <div class="about-wrapper">
-      {{#each data.team.content}}
-      <div class="content team">
-        <a href="{{linkedIn}}" target="_blank">
-          <img src="{{image}}"></img>
-        </a>
-        <div>
-          <a href="{{linkedIn}}" target="_blank">
-            <h3 class="team-name">{{name}}</h3>
-          </a>
-          <p class="team-role">{{role}}</p>
-          <p>{{intro}}</p>
-        </div>
       </div>
       {{/each}}
     </div>
@@ -105,19 +84,20 @@
   <h2 class="section-title">{{data.jobs.title}}</h2>
   <div class="section-content jobs">
     {{#if data.jobs.content}}
-      {{#each data.jobs.content}}
-      <div class="content">
-        <h3>
-          <a href="{{pdf}}" target="_blank">{{title}}</a>
-        </h3>
-        <p>{{description}}</p>
-        <a href="{{pdf}}" target="_blank">Apply here.</a>
-      </div>
-      {{/each}}
+    {{#each data.jobs.content}}
+    <div class="content">
+      <h3>
+        <a href="{{pdf}}" target="_blank">{{title}}</a>
+      </h3>
+      <p>{{description}}</p>
+      <a href="{{pdf}}" target="_blank">Apply here.</a>
+    </div>
+    {{/each}}
     {{else}}
-      <p class="no-jobs">
-        {{data.jobs.noJobsText}}<a href="mailto:rh@casa-rara.com" target="_blank"> rh@casa-rara.com</a>.
-      </p>
+    <p class="no-jobs">
+      {{data.jobs.noJobsText}}<a href="mailto:rh@casa-rara.com" target="_blank">
+        rh@casa-rara.com</a>.
+    </p>
     {{/if}}
   </div>
 </section>
